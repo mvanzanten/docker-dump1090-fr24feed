@@ -9,3 +9,11 @@ services:
     devices:
       - /dev/bus/usb
     restart: unless-stopped
+  fr24feed:
+    container_name: fr24feed
+    image: uacmarine556/fr24feed
+    env_file:
+      - .env
+    ports:
+      - 8754:8754/tcp
+    restart: unless-stopped

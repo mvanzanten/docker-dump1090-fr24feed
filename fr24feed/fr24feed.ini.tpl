@@ -1,0 +1,8 @@
+receiver="beast-tcp"
+fr24key="${FR24FEED_FR24KEY}"
+host="${RECEIVER_HOST}:${RECEIVER_PORT}"
+bs="no"
+raw="yes"
+logmode="o"
+mlat="yes"
+mlat-without-gps="yes"

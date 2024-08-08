@@ -97,9 +97,9 @@ OutlineMlatColor = '#4040FF';
 
 SiteCircles = true; // true to show circles (only shown if the center marker is shown)
 // In miles, nautical miles, or km (depending settings value 'DisplayUnits')
-DefaultSiteCirclesCount = 3;
+DefaultSiteCirclesCount = 4;
 DefaultSiteCirclesBaseDistance = 10;
-DefaultSiteCirclesInterval = 25;
+DefaultSiteCirclesInterval = 10;
 
 // Controls page title, righthand pane when nothing is selected
 PageName = "Airspace";

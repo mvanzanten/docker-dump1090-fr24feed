@@ -22,9 +22,18 @@ jobs:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
           
-      - name: Build and push
+      - name: Build and push - dump1090
         uses: docker/build-push-action@v5
         with:
           push: true
+          dockerfile: ./dump1090/Dockerfile
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/dump1090:latest
+          platforms: linux/amd64,linux/arm64
+
+      - name: Build and push - fr24feed
+        uses: docker/build-push-action@v5
+        with:
+          push: true
+          dockerfile: ./fr24feed/Dockerfile
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/fr24feed:latest
           platforms: linux/amd64,linux/arm64
