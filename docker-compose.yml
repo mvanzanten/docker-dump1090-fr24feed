@@ -1,0 +1,11 @@
+services:
+  dump1090:
+    container_name: dump1090
+    image: uacmarine556/dump1090
+    env_file:
+      - .env
+    ports:
+      - 8024:8080/tcp
+    devices:
+      - /dev/bus/usb
+    restart: unless-stopped
