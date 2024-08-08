@@ -1,7 +1,7 @@
-# Dump1090 Flightaware Docker (RTL-SDR V4) 
+# Dump1090, FR24Feed, and Flightaware on Docker (RTL-SDR V4) 
 ![build](https://github.com/mvanzanten/docker-dump1090/actions/workflows/build.yml/badge.svg)
 
-This is a version of Dump1090 with the RTL-SDR V4 driver running FlightAware
+This is a version of Dump1090 with the RTL-SDR V4 driver running FlightAware and FR24Feed
 
 Docker images in use [uacmarine556/dump1090](https://hub.docker.com/r/uacmarine556/dump1090) and [uacmarine556/fr24feed](https://hub.docker.com/r/uacmarine556/fr24feed).
 
@@ -41,3 +41,6 @@ docker build . -t uacmarine556/fr24feed
 
 ### Accessing Skyview
 Visit http://localhost:8024
+
+### Accessing FR24Feed
+Visit http://localhost:8754
