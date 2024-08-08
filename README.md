@@ -1,4 +1,7 @@
 # Dump1090 Flightaware Docker (RTL-SDR V4) 
+![build](https://github.com/mvanzanten/docker-dump1090/actions/workflows/build.yml/badge.svg)
+
+Docker image can be found here [uacmarine556/kali-linux-novnc](https://hub.docker.com/r/uacmarine556/kali-linux-novnc).
 This is a version of Dump1090 with the RTL-SDR V4 driver running FlightAware
 
 Docker image can be found here [uacmarine556/dump1090](https://hub.docker.com/r/uacmarine556/dump1090).
