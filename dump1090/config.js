@@ -15,7 +15,7 @@ MessageRateInTitle = false;
 // metric (m, km, km/h) or imperial (ft, mi, mph) units are used in the
 // plane table and in the detailed plane info. Valid values are
 // "nautical", "metric", or "imperial".
-DisplayUnits = "nautical";
+DisplayUnits = "metric";
 
 // -- Map settings ----------------------------------------
 // These settings are overridden by any position information
@@ -35,7 +35,7 @@ DefaultZoomLvl   = 7;
 SiteShow    = false;           // true to show a center marker
 SiteLat     = 45.0;            // position of the marker
 SiteLon     = 9.0;
-SiteName    = "Home"; // tooltip of the marker
+SiteName    = "Station";       // tooltip of the marker
 
 // -- Marker settings -------------------------------------
 
@@ -97,9 +97,9 @@ OutlineMlatColor = '#4040FF';
 
 SiteCircles = true; // true to show circles (only shown if the center marker is shown)
 // In miles, nautical miles, or km (depending settings value 'DisplayUnits')
-DefaultSiteCirclesCount = 4;
+DefaultSiteCirclesCount = 3;
 DefaultSiteCirclesBaseDistance = 10;
-DefaultSiteCirclesInterval = 10;
+DefaultSiteCirclesInterval = 20;
 
 // Controls page title, righthand pane when nothing is selected
 PageName = "Airspace";
