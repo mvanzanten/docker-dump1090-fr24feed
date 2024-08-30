@@ -6,6 +6,7 @@ services:
       - .env
     ports:
       - 8024:8080/tcp
+      - 30005:30005
     devices:
       - /dev/bus/usb
     restart: unless-stopped
